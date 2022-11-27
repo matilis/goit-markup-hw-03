@@ -1,0 +1,178 @@
+:root {
+  --background-color: #ffffff;
+  --main-color: #212121;
+  --secondary-color: #000000;
+  --third-color: #757575;
+  --accent-color: #ffffff99;
+  --backlight-color: #2196f3;
+  --principal-color: #2f303a;
+  --team-color: #f5f4fa;
+}
+:focus {
+  background-color: var(--backlight-color);
+  outline: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.highlight-web {
+  color: var(--backlight-color);
+}
+.highlight-header {
+  color: var(--secondary-color);
+}
+ul {
+  list-style: none;
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--main-color);
+}
+.nav-link:hover {
+  color: var(--backlight-color);
+}
+.contact-list {
+  letter-spacing: 0.02em;
+}
+.contact-link {
+  text-decoration: none;
+  color: var(--third-color);
+}
+.contact-link:hover {
+  color: var(--backlight-color);
+}
+.principal {
+  background-color: var(--principal-color);
+}
+.principal-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+  text-align: center;
+  text-transform: uppercase;
+}
+.button1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+  background-color: var(--backlight-color);
+  cursor: pointer;
+}
+.button1:hover {
+  color: var(--main-color);
+  background-color: var(--team-color);
+}
+.button2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: var(--team-color);
+  cursor: pointer;
+}
+.button2:hover {
+  background-color: var(--backlight-color);
+  color: var(--background-color);
+}
+button:focus {
+  background-color: var(--backlight-color);
+  outline: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.team-section {
+  background-color: var(--team-color);
+}
+.descrition-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.descrition {
+  line-height: 1.71;
+  color: var(--third-color);
+}
+.names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.jobs {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--third-color);
+}
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--third-color);
+}
+.contact-footer {
+  font-style: normal;
+  background-color: var(--principal-color);
+}
+.highlight-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--background-color);
+}
+.contact-footer-link-map {
+  text-decoration: none;
+  line-height: 1.71;
+  color: var(--background-color);
+}
+.contact-footer-link-map:hover {
+  color: var(--backlight-color);
+}
+.contact-footer-link {
+  text-decoration: none;
+  line-height: 1.71;
+  color: var(--accent-color);
+}
+.contact-footer-link:hover {
+  color: var(--backlight-color);
+}
