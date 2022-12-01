@@ -233,6 +233,7 @@ button:focus {
 .gallery-main {
   min-height: 1360px;
   margin-top: 94px;
+  margin-bottom: 94px;
 }
 .gallery-item {
   display: flex;
