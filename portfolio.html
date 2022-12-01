@@ -13,32 +13,43 @@
       rel="stylesheet"
     />
     <!-- END Google Fonts Link s-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <!--Logo-->
-      <a class="logo" href="index.html"
-        ><span class="highlight-web">Web</span><span class="highlight-header">Studio</span></a
-      >
-      <nav>
-        <!--Links-->
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Agencja</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="contact-list">
-        <!--Contact-->
-        <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contact-link" href="tel:+48111111111">+48 111 111 111</a>
+      <div class="nav-menu-border">
+        <div class="nav-menu container">
+          <!--Logo-->
+          <a class="logo" href="index.html"
+            ><span class="highlight-web">Web</span><span class="highlight-header">Studio</span></a
+          >
+          <nav>
+            <!--Links-->
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Agencja</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contact-list">
+            <!--Contact-->
+            <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-link" href="tel:+48111111111">+48 111 111 111</a>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -125,26 +136,28 @@
     <footer>
       <!--Logo+Contact-->
       <address class="contact-footer" id="contact">
-        <a class="logo" href="index.html"
-          ><span class="highlight-web">Web</span><span class="highlight-footer">Studio</span></a
-        >
-        <ul class="contact-footer-list">
-          <li class="contact-footer-item">
-            <a
-              class="contact-footer-link-map"
-              href="https://goo.gl/maps/mivUpqcJWEY4cBys6"
-              target="_blank"
-              rel="noopener nofollow"
-              >m. Warszawa, Aleje Jerozolimskie 21</a
-            >
-          </li>
-          <li class="contact-footer-item">
-            <a class="contact-footer-link" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li class="contact-footer-item">
-            <a class="contact-footer-link" href="tel:0048111111111">+48 111 111 111</a>
-          </li>
-        </ul>
+        <div class="container">
+          <a class="logo" href="index.html"
+            ><span class="highlight-web">Web</span><span class="highlight-footer">Studio</span></a
+          >
+          <ul class="contact-footer-list">
+            <li class="contact-footer-item">
+              <a
+                class="contact-footer-link-map"
+                href="https://goo.gl/maps/mivUpqcJWEY4cBys6"
+                target="_blank"
+                rel="noopener nofollow"
+                >m. Warszawa, Aleje Jerozolimskie 21</a
+              >
+            </li>
+            <li class="contact-footer-item">
+              <a class="contact-footer-link" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="contact-footer-item">
+              <a class="contact-footer-link" href="tel:0048111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </div>
       </address>
     </footer>
   </body>
