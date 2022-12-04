@@ -95,8 +95,8 @@
           </li>
         </ul>
       </section>
-      <section class="container">
-        <h2 class="commercial">Czym się zajmujemy</h2>
+      <section class="commercial container">
+        <h2 class="commercial-list">Czym się zajmujemy</h2>
         <ul class="commercial-item about-list">
           <li>
             <img
@@ -126,40 +126,48 @@
       </section>
       <section class="team">
         <!--Our Team-->
-        <h2 class="commercial commercial-top">Nasz zespół</h2>
         <div class="container">
+          <h2 class="commercial-list commercial-top">Nasz zespół</h2>
           <ul class="commercial-item about-list">
             <li class="team-item">
               <img src="images/john1.jpg" alt="John Doe Photo" width="270" height="260" />
-              <h3 class="names">John Doe</h3>
-              <p class="jobs">Product Designer</p>
+              <div class="space-names">
+                <h3 class="names">John Doe</h3>
+                <p class="jobs">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img src="images/john2.jpg" alt="John Doe Photo" width="270" height="260" />
-              <h3 class="names">John Doe</h3>
-              <p class="jobs">Frontend Developer</p>
+              <div class="space-names">
+                <h3 class="names">John Doe</h3>
+                <p class="jobs">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img src="images/john3.jpg" alt="John Doe Photo" width="270" height="260" />
-              <h3 class="names">John Doe</h3>
-              <p class="jobs">Marketing</p>
+              <div class="space-names">
+                <h3 class="names">John Doe</h3>
+                <p class="jobs">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img src="images/john4.jpg" alt="John Doe Photo" width="270" height="260" />
-              <h3 class="names">John Doe</h3>
-              <p class="jobs">UI Designer</p>
+              <div class="space-names">
+                <h3 class="names">John Doe</h3>
+                <p class="jobs">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="contact">
       <!--Logo+Contact-->
-      <address class="contact-footer" id="contact">
-        <div class="container">
-          <a class="logo" href="index.html"
-            ><span class="highlight-web">Web</span><span class="highlight-footer">Studio</span></a
-          >
+      <div class="container">
+        <a class="logo" href="index.html"
+          ><span class="highlight-web">Web</span><span class="highlight-footer">Studio</span></a
+        >
+        <address class="contact-footer" id="contact">
           <ul class="contact-footer-list">
             <li class="contact-footer-item">
               <a
@@ -177,8 +185,8 @@
               <a class="contact-footer-link" href="tel:0048111111111">+48 111 111 111</a>
             </li>
           </ul>
-        </div>
-      </address>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
