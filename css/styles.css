@@ -36,7 +36,7 @@ img {
   height: auto;
 }
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
   /* outline: 1px dashed red; */
@@ -191,7 +191,7 @@ button:focus {
   margin-top: 0;
   margin-bottom: 50px;
 }
-.about {
+.section {
   padding: 94px 0;
 }
 .about-list {
@@ -237,23 +237,22 @@ button:focus {
   color: var(--third-color);
   text-align: center;
 }
-.gallery-main {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
 .gallery-item {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
 }
-
+.gallery {
+  border: 1px solid var(--border-gallery);
+  padding: 20px 24px;
+  margin-bottom: 4px;
+}
 .gallery-wrap {
   flex-wrap: wrap;
 }
 .gallery-list {
   width: calc((100% - 60px) / 3);
-  border: 1px solid var(--border-gallery);
 }
 
 .gallery-title {
@@ -261,13 +260,11 @@ button:focus {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 24px 4px;
 }
 .gallery-subtitle {
   font-size: 16px;
   line-height: 1.87;
   color: var(--third-color);
-  margin: 0 24px 20px;
 }
 .contact {
   background-color: var(--principal-color);
